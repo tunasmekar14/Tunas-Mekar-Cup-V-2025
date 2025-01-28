@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tunas Mekar Cup V 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #2d6a4f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #40916c;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #2d6a4f;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .hero {
+            background-image: url('soccer_background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 50px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .card h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .card p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tunas Mekar Cup V 2025</h1>
+        <p>Turnamen Sepak Bola Karang Taruna</p>
+    </header>
+    <nav>
+        <a href="#about">Tentang</a>
+        <a href="#agenda">Agenda</a>
+        <a href="#teams">Peserta</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Selamat Datang di Tunas Mekar Cup V</h1>
+        <p>Mari bersama kita rayakan semangat olahraga dan kebersamaan!</p>
+    </section>
+
+    <section id="about">
+        <h2>Tentang Turnamen</h2>
+        <p>Turnamen ini adalah ajang tahunan yang menyatukan talenta-talenta sepak bola terbaik dari berbagai desa untuk berkompetisi dalam semangat persatuan dan sportivitas.</p>
+    </section>
+
+    <section id="agenda">
+        <h2>Agenda Turnamen</h2>
+        <div class="content">
+            <div class="card">
+                <h3>Pembukaan</h3>
+                <p>1 Maret 2025</p>
+            </div>
+            <div class="card">
+                <h3>Pertandingan Penyisihan</h3>
+                <p>2 - 10 Maret 2025</p>
+            </div>
+            <div class="card">
+                <h3>Semifinal</h3>
+                <p>12 Maret 2025</p>
+            </div>
+            <div class="card">
+                <h3>Final dan Penutupan</h3>
+                <p>15 Maret 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="teams">
+        <h2>Peserta Turnamen</h2>
+        <ul>
+            <li>Klub Sepak Bola Desa A</li>
+            <li>Klub Sepak Bola Desa B</li>
+            <li>Klub Sepak Bola Desa C</li>
+            <li>Klub Sepak Bola Desa D</li>
+            <li>dan lainnya...</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Untuk informasi lebih lanjut, hubungi panitia: <strong>0857-1234-5678</strong></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Karang Taruna Tunas Mekar. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
